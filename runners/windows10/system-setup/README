@@ -1,0 +1,7 @@
+Install instructions:
+1. Create a new Windows 10 VM
+2. Make the user auto-login with admin rights
+3. Copy these files to C:\CI
+4. Link "run.bat" into shell:startup
+5. Disable UAC completly (mouse input is crap for automated setups)
+6. Install "git" with minimum wrappers for the shell and "commit and checkout as-is"

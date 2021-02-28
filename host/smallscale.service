@@ -1,0 +1,15 @@
+[Unit]
+Description=Smallscale CI Runner Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/media/backup/ci
+ExecStart=/media/backup/ci/host/daemon.sh
+Restart=always
+# User=gemserv
+# Group=gemserv
+
+[Install]
+WantedBy=multi-user.target
+

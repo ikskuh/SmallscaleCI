@@ -1,0 +1,13 @@
+<volume>
+  <name>transient-volume.qcow2</name>
+  <capacity>85899345920</capacity>
+  <allocation>0</allocation>
+  <target>
+    <format type="qcow2"/>
+  </target>
+  <backingStore>
+    <format type='qcow2'/>
+    <path>/media/backup/virtual-machines/ubuntu20.04-base.qcow2</path>
+  </backingStore>
+</volume>
+
